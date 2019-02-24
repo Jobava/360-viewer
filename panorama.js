@@ -49,7 +49,7 @@ document.getElementById('files').onchange = function() {
     for (let i = 0; i < files.length; i++) {
         file = files[i];
         pictureURLs.push('pictures/' + file.name);
-        alert(pictureURLs[i]);
+        //alert(pictureURLs[i]);
     }
 
     state = slideshow();
